@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    bottom: 0%;
+}
+
+body {
+    display: inline;
+    margin: 0px;
+    background-color:#F7F2DE ;
+}
+
+.flex-container {
+    display :flex; /* kapsayici esnek */
+    flex-wrap: nowrap;
+    background-color: #F7F2DE;
+
+    /* justify-content: elemenalari yatayda siralar */
+    /* justify-content: center; elemanlari ortaya hizalar */
+    /* justify-content: flex-start; elemanlari solda hizalar */
+    /* justify-content: space-between; bas ve sondaki bosluklar degismez */
+    /* justify-content: space-around; sag ve solda aralardaki boslugun yarisi kadar bosluk birakir.*/
+    /*justify-content: space-evenly; her yerde ayni olcude bosluk. */
+}
+
+.grid-container > div {
+    font-size: 30px;
+}
+
+.item1 {
+    position: static;
+    padding: 15px 105px 45px 88px;
+    background-color: #8FCCC5;
+}
+
+.item3 {
+    position: relative;
+    margin-left: -8%;
+    margin-top: 10%;
+}
+
+#id {
+    background-color: #F7F2DE;
+}
+
+.navigation{
+    padding-top: 600px;
+    list-style-type: none;  /* Noktayi kaldirmak icin */
+}
+
+a:hover {
+    filter:invert(70%);
+}
+
+ul {
+    display:flex; /* bu kisim sayesinde listeyi yatirdik */
+    margin:0;
+    padding:0;
+   }
+
+li {
+    list-style-type: none;
+    flex-basis: 33%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+img.round {
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+p {
+    padding-top: 40%;
+    padding-left: 30%;
+    padding-right: 35%;
+}
