@@ -2,46 +2,59 @@
     margin: 0%;
     bottom: 0%;
     font-size: 1.1vw;
+    display :inline-flex;
 }
 
 @media (max-width: 500px){
     body{
         margin-bottom: 0.5rem;
         font-size: 0.5vw;
-        display:;
+        display:inherit;
+        background-color: #8FCCC5;;
     }
-}
 
-.flex-container {
-    background-color: #F7F2DE;
-    display :inline-flex;
-    /* flex-wrap: nowrap; */
-}
+    img{
+        display:none;
+    }
+
+    .item1 {
+
+    }
+
+    }
 
 .item1 {
-    position: static;
+
+    block-size: 83vh;
     padding-left: 8vh;
-    padding-right:8vh;
-    padding-bottom:7vh ;
+    padding-right:16vh;
+    padding-bottom:16vh ;
+    padding-top: 10vh;
     background-color: #8FCCC5;
 }
 
-.item3 {
-    margin-left: -8%;
-    margin-top: 10%;
-}
 
 .navigation{
-    padding-top: 70vh;
+    position:absolute;
     list-style-type: none;  /* Noktayi kaldirmak icin */
 }
+
+.item3 {
+
+    margin-left: -8%;
+    margin-top: 10%;
+    margin-bottom: 17%;
+    display: block;
+}
+
+
 
 a:hover {
     filter:invert(70%);
 }
 
 ul {
-    display:flex; /* bu kisim sayesinde listeyi yatirdik */
+    /* display:flex; bu kisim sayesinde listeyi yatirdik */
     margin:0;
     padding:0;
    }
