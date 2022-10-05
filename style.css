@@ -1,53 +1,38 @@
 *{
     margin: 0%;
     bottom: 0%;
+    font-size: 1.1vw;
 }
 
-body {
-    display: inline;
-    margin: 0px;
-    background-color:#F7F2DE ;
-}
-
-div {
-    font-size: 1 em;
+@media (max-width: 500px){
+    body{
+        margin-bottom: 0.5rem;
+        font-size: 0.5vw;
+        display:;
+    }
 }
 
 .flex-container {
-    display :flex; /* kapsayici esnek */
-    flex-wrap: nowrap;
     background-color: #F7F2DE;
-
-    /* justify-content: elemenalari yatayda siralar */
-    /* justify-content: center; elemanlari ortaya hizalar */
-    /* justify-content: flex-start; elemanlari solda hizalar */
-    /* justify-content: space-between; bas ve sondaki bosluklar degismez */
-    /* justify-content: space-around; sag ve solda aralardaki boslugun yarisi kadar bosluk birakir.*/
-    /*justify-content: space-evenly; her yerde ayni olcude bosluk. */
-}
-
-.grid-container > div {
-    /* font-size: 30px; */
+    display :inline-flex;
+    /* flex-wrap: nowrap; */
 }
 
 .item1 {
     position: static;
-    padding: 15px 105px 45px 88px;
+    padding-left: 8vh;
+    padding-right:8vh;
+    padding-bottom:7vh ;
     background-color: #8FCCC5;
 }
 
 .item3 {
-    position: relative;
     margin-left: -8%;
     margin-top: 10%;
 }
 
-#id {
-    background-color: #F7F2DE;
-}
-
 .navigation{
-    padding-top: 600px;
+    padding-top: 70vh;
     list-style-type: none;  /* Noktayi kaldirmak icin */
 }
 
@@ -73,6 +58,7 @@ img.round {
     border-radius: 20%;
     object-fit: cover;
     box-shadow: 0 0 20px 8px #d0d0d0;
+    width: 30vw;
 }
 
 p {
