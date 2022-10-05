@@ -9,6 +9,10 @@ body {
     background-color:#F7F2DE ;
 }
 
+div {
+    font-size: 1 em;
+}
+
 .flex-container {
     display :flex; /* kapsayici esnek */
     flex-wrap: nowrap;
@@ -23,7 +27,7 @@ body {
 }
 
 .grid-container > div {
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .item1 {
